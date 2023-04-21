@@ -4,7 +4,7 @@ let grid = []
 let btnTrain = null;
 
 if(window.Worker) {
-  worker = new Worker('./nn-worker.js')
+  worker = new Worker('./js/nn-worker.js')
   worker.addEventListener('message',({ data }) => {
     switch (data?.type) {
       case 'train':
