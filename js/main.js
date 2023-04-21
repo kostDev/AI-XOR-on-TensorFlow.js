@@ -56,7 +56,7 @@ function draw() {
   background('black');
   grid.forEach(row => {
     row.forEach(cell => {
-      fill(color(cell.color * 255, cell.color * 12, cell.color * 60));
+      fill(color(cell.color * 255, 12, cell.color * 60));
       noStroke();
       rect(cell.x, cell.y, cellSize,cellSize);
     })
