@@ -31,7 +31,7 @@ function setup() {
 
   let xFlat = 0, yFlat = 0;
 
-  for(let y = 0, rowIndex = 0; y < width; y +=cellSize, rowIndex++) {
+  for(let y = 0, rowIndex = 0; y < height; y +=cellSize, rowIndex++) {
     grid.push([])
     for(let x = 0; x < width; x += cellSize) {
       // values for xor from 0 to 1
