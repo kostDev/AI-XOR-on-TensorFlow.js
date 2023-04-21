@@ -2,3 +2,5 @@
 
 - run on localhost
 - press train button
+
+![XOR on Canvas](./assets/img.png)
